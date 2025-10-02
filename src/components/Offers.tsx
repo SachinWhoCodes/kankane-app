@@ -86,9 +86,11 @@ const Offers = () => {
         </div>
         
         <div className="text-center">
+          <a href="https://github.com/SachinWhoCodes/kankane-app-download/releases/download/v1.0/application-808b4028-c60e-4232-89b2-964055f80cea.apk" target="_blank" rel="noopener noreferrer">
           <Button variant="cta" size="lg" className="text-lg px-12 py-4 h-auto">
             Download App for More Offers
           </Button>
+          </a>
         </div>
       </div>
     </section>

@@ -31,22 +31,29 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button 
-                variant="cta" 
-                size="lg" 
-                className="text-lg px-8 py-4 h-auto"
-              >
-                <Download className="w-5 h-5 mr-2" />
-                Download for Android
-              </Button>
-              <Button 
-                variant="gold" 
-                size="lg" 
-                className="text-lg px-8 py-4 h-auto"
-              >
-                <Play className="w-5 h-5 mr-2" />
-                Download for iOS
-              </Button>
+              {/* Android Download Button */}
+              <a href="https://github.com/SachinWhoCodes/kankane-app-download/releases/download/v1.0/application-808b4028-c60e-4232-89b2-964055f80cea.apk" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  variant="cta" 
+                  size="lg" 
+                  className="text-lg px-8 py-4 h-auto w-full sm:w-auto"
+                >
+                  <Download className="w-5 h-5 mr-2" />
+                  Download for Android
+                </Button>
+              </a>
+
+              {/* iOS Download Button */}
+              {/* <a href="https://github.com/SachinWhoCodes/kankane-app-download/releases/download/v1.0/application-808b4028-c60e-4232-89b2-964055f80cea.apk" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  variant="gold" 
+                  size="lg" 
+                  className="text-lg px-8 py-4 h-auto w-full sm:w-auto"
+                >
+                  <Play className="w-5 h-5 mr-2" />
+                  Download for iOS
+                </Button>
+              </a> */}
             </div>
             
             <div className="grid grid-cols-3 gap-8 text-center">

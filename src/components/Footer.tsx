@@ -26,6 +26,7 @@ const Footer = () => {
                 Download our app now and enjoy fast food delivery and instant room booking at your fingertips.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://github.com/SachinWhoCodes/kankane-app-download/releases/download/v1.0/application-808b4028-c60e-4232-89b2-964055f80cea.apk" target="_blank" rel="noopener noreferrer">
                 <Button 
                   variant="default" 
                   size="lg" 
@@ -34,6 +35,8 @@ const Footer = () => {
                   <Download className="w-5 h-5 mr-2" />
                   Download for Android
                 </Button>
+                </a>
+                <a href="https://github.com/SachinWhoCodes/kankane-app-download/releases/download/v1.0/application-808b4028-c60e-4232-89b2-964055f80cea.apk" target="_blank" rel="noopener noreferrer">
                 <Button 
                   variant="outline" 
                   size="lg" 
@@ -42,6 +45,7 @@ const Footer = () => {
                   <Play className="w-5 h-5 mr-2" />
                   Download for iOS
                 </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
